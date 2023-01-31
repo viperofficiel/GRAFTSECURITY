@@ -1,0 +1,223 @@
+/* GENERALE */
+body {
+  font-family: "Lato", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+ul,
+ol {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+section {
+  padding: 45px 0 80px 0;
+}
+section .heading {
+  text-align: center;
+  padding-bottom: 40px;
+}
+section .heading h2 {
+  text-transform: uppercase;
+}
+.red-divider {
+  width: 100px;
+  height: 2px;
+  background: #fff;
+  margin: 0 auto;
+}
+.white-divider {
+  width: 100px;
+  height: 2px;
+  background: #fff;
+  margin: 0 auto;
+}
+.grey-divider {
+  width: 100px;
+  height: 2px;
+  background: #263238;
+  margin: 0 auto;
+}
+.button1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  border: 1px solid white;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 18px 50px;
+  border-radius: 3px;
+  transition: all 0.3s ease-in 0s;
+  background: rgba(192, 192, 192, 0.3);
+}
+.button1:hover {
+  background: #fff;
+  color: #d82c2e;
+  text-decoration: none;
+}
+/*MENU*/
+.navbar {
+  background: #263238;
+  font-size: 12px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
+.navbar li a {
+  color: #fff !important;
+}
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+  color: #d82c2e !important;
+  background-color: #fff !important;
+}
+.navbar-default .navbar-toggle {
+  border-style: none;
+  float: right;
+}
+.icon-bar {
+  background-color: #fff !important;
+}
+/* HOME */
+
+#Home {
+  padding-top: 100px;
+  background: #000000;
+}
+
+.profile-picture {
+  text-align: center;
+  margin: 0 auto;
+  float: none;
+}
+#Home .heading h1 {
+  color: #fff;
+  text-transform: uppercase;
+}
+#Home .heading h3 {
+  color: #000;
+}
+
+/* About Us */
+#Aboutus {
+  background: #263238;
+}
+#Aboutus .heading h2 {
+  color: #fff;
+}
+#Aboutus p {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 50%;
+  margin: auto;
+}
+/* OUR SERVICE*/
+#Ourservice {
+  background: #aebbc1;
+}
+#service-style {
+  display: block;
+  background: #fff;
+  border-radius: 50px;
+}
+#service-style h3 {
+  color: red;
+}
+#intro-our {
+  font-size: 20px;
+  text-align: center;
+}
+/* JOIN THE TEAMS */
+#join p {
+  padding-top: 60px;
+  font-size: 20px;
+}
+
+/* Formulaire de contact*/
+#contact {
+  background: #263238;
+}
+#contact img {
+  width: 50%;
+}
+
+#icon {
+  margin-left: 50%;
+  margin-right: 50%;
+  width: 100%;
+  text-align: center;
+}
+
+#contact .img-icon {
+  width: 54px;
+  float: left;
+}
+#contact .heading h2 {
+  color: #fff;
+}
+
+#contact-form {
+  padding-top: 60px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.form-control {
+  height: 50px;
+  font-size: 18px;
+}
+#contact-form input[type="submit"] {
+  margin: 40px auto 0px;
+  display: block;
+}
+.comments {
+  font-style: italic;
+  font-size: 18px;
+  color: #fff;
+  height: 25px;
+}
+#contact-form .thank-you {
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+/* FOOTER */
+footer {
+  background: #333;
+  padding: 20px 0 40px;
+}
+footer .glyphicon {
+  font-size: 25px;
+  margin: 20px;
+  color: #d82c2e;
+  height: 38px;
+}
+footer .glyphicon:hover {
+  font-size: 27px;
+}
+footer h5 {
+  color: #fff;
+  font-weight: normal;
+}
