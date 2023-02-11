@@ -49,7 +49,7 @@
             <li><a href="#Aboutus" class="lang" key="Aboutus">About us</a></li>
             <li>
               <a href="#Ourservice" class="lang" key="Ourservice"
-                >Our Service</a
+                >Our Services</a
               >
             </li>
             <li><a href="#join" class="lang" key="join">Join the team</a></li>
@@ -68,7 +68,7 @@
     </section>
 
     <section id="Aboutus">
-      <div class="red-divider"></div>
+      <div class="white-divider"></div>
       <div class="heading">
         <h2 class="lang" key="Aboutus">About us</h2>
       </div>
@@ -104,6 +104,7 @@
               <li data-target="#myCarousel" data-slide-to="5"></li>
               <li data-target="#myCarousel" data-slide-to="6"></li>
               <li data-target="#myCarousel" data-slide-to="7"></li>
+              <li data-target="#myCarousel" data-slide-to="8"></li>
             </ol>
 
             <!-- Wrapper for slides -->
@@ -147,6 +148,11 @@
                 <img src="Images/agent8.JPG" alt="Flower" />
                 <div class="carousel-caption"></div>
               </div>
+
+              <div class="item">
+                <img src="Images/agent9.JPG" alt="Flower" />
+                <div class="carousel-caption"></div>
+              </div>
             </div>
 
             <!-- Left and right controls -->
@@ -182,7 +188,7 @@
     <section id="Ourservice">
       <div class="grey-divider"></div>
       <div class="heading">
-        <h2 class="lang" key="Ourservice">Our Service</h2>
+        <h2 class="lang" key="Ourservice">Our Services</h2>
       </div>
 
       <div class="container">
@@ -291,7 +297,7 @@
           <div class="col-md-6">
             <div><img src="Images/logo.JPG" alt="GRAFTSECURITY" /></div>
             <div>
-              <p id="contact-form">
+              <p id="contact-formdeux">
                 <strong>GRAFTSECURITY LTD </strong> <br /><br />
                 313 Romford road London <br />
                 E79HA <br /><br />
@@ -316,24 +322,24 @@
             <form id="contact-form" method="post" action="" role="form">
               <div class="row">
                 <div class="col-md-6">
-                  <label for="firstname">Last Name * </label>
+                  <label for="firstname">First Name * </label>
                   <input
                     id="firstname"
                     type="text"
                     name="firstname"
                     class="form-control"
-                    placeholder="Last Name"
+                    placeholder="First Name"
                   />
                   <p class="comments"></p>
                 </div>
                 <div class="col-md-6">
-                  <label for="name">First Name * </label>
+                  <label for="name">Last Name * </label>
                   <input
                     id="name"
                     type="text"
                     name="name"
                     class="form-control"
-                    placeholder="First Name"
+                    placeholder="Last Name"
                   />
                   <p class="comments"></p>
                 </div>
@@ -344,12 +350,12 @@
                     type="text"
                     name="email"
                     class="form-control"
-                    placeholder="Your Email"
+                    placeholder="Your Email : ...xyz@mail.com"
                   />
                   <p class="comments"></p>
                 </div>
                 <div class="col-md-6">
-                  <label for="phone">Téléphone *</label>
+                  <label for="phone">Telephone *</label>
                   <input
                     id="phone"
                     type="tel"
@@ -376,8 +382,9 @@
                   </p>
                 </div>
                 <div class="col-md-12">
-                  <input type="submit" class="button1" value="Submit" />
+                  <input type="submit" class="button1" value="send" />
                 </div>
+                <br />
               </div>
             </form>
           </div>
@@ -402,8 +409,15 @@
       </div>
       <br />
       <h5>
-        Copyright 2023 GRAFTSECURITY LTD- All Rights Reserved. Privacy Policy
+        <a href="Terms_and_conditions.html">TERMS AND CONDITIONS </a> &
+        <a href="privacy_policy.html"> PRIVACY POLICY</a>
+      </h5>
+
+      <br /><br />
+      <h5>
+        Copyright 2023 GRAFTSECURITY LTD - All Rights Reserved. Privacy Policy
       </h5>
     </footer>
+    <script src="JS/script.js"></script>
   </body>
 </html>

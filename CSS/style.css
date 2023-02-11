@@ -28,12 +28,6 @@ section .heading {
 section .heading h2 {
   text-transform: uppercase;
 }
-.red-divider {
-  width: 100px;
-  height: 2px;
-  background: #fff;
-  margin: 0 auto;
-}
 .white-divider {
   width: 100px;
   height: 2px;
@@ -181,6 +175,11 @@ section .heading h2 {
   font-size: 20px;
   color: #fff;
 }
+#contact-formdeux {
+  padding-top: 60px;
+  font-size: 20px;
+  color: #fff;
+}
 
 .form-control {
   height: 50px;
@@ -193,7 +192,7 @@ section .heading h2 {
 .comments {
   font-style: italic;
   font-size: 18px;
-  color: #fff;
+  color: #ff0000;
   height: 25px;
 }
 #contact-form .thank-you {
@@ -220,4 +219,23 @@ footer .glyphicon:hover {
 footer h5 {
   color: #fff;
   font-weight: normal;
+}
+footer h5 a {
+  color: #fff !important;
+  font-weight: normal;
+}
+footer h5 a:hover,
+footer h5 a:active {
+  color: rgb(202, 196, 196) !important;
+  font-weight: normal;
+}
+
+/* TERMS AND CONDITIONS */
+#terms {
+  background: #aebbc1;
+}
+
+#terms-txt {
+  font-size: 20px;
+  text-align: center;
 }
